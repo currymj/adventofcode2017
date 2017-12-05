@@ -1,0 +1,8 @@
+[package]
+name = "adventofcode2017"
+version = "0.1.0"
+authors = ["Michael J. Curry <curry@cs.umd.edu>"]
+
+[dependencies]
+itertools = "0.5"
+

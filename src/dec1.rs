@@ -1,5 +1,4 @@
-extern crate itertools;
-use self::itertools::zip;
+use itertools::zip;
 
 pub fn captcha(x: &str) -> i64 {
     let xvec: Vec<_> = x.split("").flat_map(|z| z.parse::<i64>()).collect();
